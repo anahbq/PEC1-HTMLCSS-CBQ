@@ -7,13 +7,17 @@
     <meta name="author" content="Claudia Balarezo Quiroz">
     <title>MP - Zona agrícola</title>
     <link rel="stylesheet" href="../styles.css">
+
+    <link rel="icon" type="image/png" href="../../img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../../img/favicon-32x32.png" sizes="32x32">
 </head>
 
 <body>
     <header>
         <div>
-            <div class="container">
-                <a href="../index.html" title="Machu Picchu" class="logo">Machu Picchu</a>
+            <div class="container title">
+                <a href="../index.html" title="Machu Picchu" class="titleletter"><img src="../../img/logo.svg"
+                        alt="Logo" class="logo"><span>Ciudad de Incas</span></a>
                 <nav class="nav">
                     <ul>
                         <li><a href="../presentacion.html" title="Presentación">Tesoro Inca</a></li>
@@ -32,9 +36,13 @@
                 <li>Zona agrícola</li>
             </ul>
             <article>
-                <h1>
-                    Zona agrícola
-                </h1>
+                <div class="super">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="../../img/Categorias/Andenes_480.jpeg">
+                        <img src="../../img/Categorias/Andenes_680.jpeg" alt="Categoria">
+                    </picture>
+                    <h1 class="bzona">Zona Agrícola</h1>
+                </div>
                 <p><time datetime="2022-11-25">25-11-2022</time></p>
                 <p>
                     Los andenes (terrazas de cultivo) de Machu Picchu lucen como grandes escalones construidos sobre la
@@ -43,9 +51,6 @@
                     evitando que el agua se empoce en ellos (téngase en cuenta la gran pluviosidad de la zona) y se
                     desmorone su estructura.
                 </p>
-                <div class="cardIMG"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_44.JPG/1280px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_44.JPG"
-                        alt="Terrazas agrícola"></div>
 
                 <p> Este tipo de construcción permitió que se cultivara sobre ellos hasta la
                     primera década del siglo XX. Otros andenes de menor ancho se encuentran en la parte baja de Machu
@@ -68,24 +73,42 @@
 
                 <article id="PV">
                     <h2>Puesto de vigilancia</h2>
-                    <p>
-                        Es un edificio de tres muros con ventanas a cada lado desde el cual se puede observar la zona
-                        agrícola como la zona urbana de la ciudad de Machu Picchu.
-
-                    </p>
-                    <p>
-                        Esta zona esta orientada a la salida del sol y desde aquí se hacian estudios sobre la adaptación
-                        de las especies que traian desde otras partes del pais.
-                    </p>
+                    <div class="col">
+                        <img src="../../img/Ejército_Inca_-_Inca_Army_300.jpg"
+                            sizes="(min-width: 600px) 50vw, (min-width: 500px) 25vw, 100vw"
+                            srcset="../../img/Ejército_Inca_-_Inca_Army_300.jpg 300w, ../../img/Ejército_Inca_-_Inca_Army_350.jpg 350w, ../../img/Ejército_Inca_-_Inca_Army_600.jpg 600w"
+                            alt="Ejercito">
+                        <div>
+                            <p>
+                                Es un edificio de tres muros con ventanas a cada lado desde el cual se puede observar la
+                                zona
+                                agrícola como la zona urbana de la ciudad de Machu Picchu.
+                            </p>
+                            <p>
+                                Esta zona esta orientada a la salida del sol y desde aquí se hacian estudios sobre la
+                                adaptación
+                                de las especies que traian desde otras partes del pais.
+                            </p>
+                        </div>
+                    </div>
 
                 </article>
                 <article id="PGA">
                     <h2>Primer grupo de Andenes</h2>
+                    <div class="col">
+                        <img src="../../img/Pisac_300.jpg"
+                            sizes="(min-width: 600px) 50vw, (min-width: 500px) 25vw, 100vw"
+                            srcset="../../img/Pisac_300.jpg 300w, ../../img/Pisac_350.jpg 350w, ../../img/Pisac_600.jpg 600w"
+                            alt="Pisac">
+                        <div>
+                            <p>El primer grupo de andenes esta ubicado cerca del cementerio de la Ciudad de Machu
+                                Picchu.
+                                Este primer grupo esta ubicado de forma secuencial para obtener la mejor luz solar.
+                                Son rectangulares y estan unidos con una escalera.
+                            </p>
+                        </div>
 
-                    <p>El primer grupo de andenes esta ubicado cerca del cementerio de la Ciudad de Machu Picchu.
-                        Este primer grupo esta ubicado de forma secuencial para obtener la mejor luz solar.
-                        Son rectangulares y estan unidos con una escalera.
-                    </p>
+                    </div>
 
                 </article>
 
@@ -96,18 +119,15 @@
                             aclimatación de la gran variedad
                             de plantas que entraban y salían de diferentes partes del país.
                         </p>
-
                         <p>
                             Cada andén media 3,5x 3 metros. Y estaban formados por un muro de contención entre cada
                             andén para de esta forma captar la energía solar y guardar el calor
                             absorvido por las piedras por la mañana durante las horas de más calor hacia la tarde, lo
                             cual, hacia un efecto invernadero.
-
                         </p>
                         <p>
                             Para realizar los cultivos utilizaban herramientas de arado. Tenian punta de madera y se
                             hacian de pie.
-
                         </p>
                     </div>
                 </article>
@@ -115,20 +135,36 @@
                     Aquí podemos ver un video sobre la agricultura incaica y sus terrazas de cultivo.
                 </p>
 
-                <div class="cardIMG"><iframe src="https://www.youtube.com/embed/Cdrg7kUaN2Q"
-                        title="Zona Agrícola" 
+                <div class="cardIMG"><iframe src="https://www.youtube.com/embed/Cdrg7kUaN2Q" title="Zona Agrícola"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </article>
             <div class="left"><button onclick="location.href='./zona_urbana.html'" type="button">
-                Zona urbana >> </button> </div>
+                    Zona urbana >> </button> </div>
         </div>
 
     </main>
     <footer>
-        <p>Claudia Balarezo - UOC</p>
-        <p>25-11-22</p>
+        <div class="container col">
+            <div class="Rfooter">
+                <ul class="List">
+                    <li><a href="../presentacion.html">Tesoro Inca</a></li>
+                    <li><a href="../categoria.html">Zonas</a></li>
+                    <li><a href="./zona_agricola.html">Zona agricola</a></li>
+                    <li><a href="./zona_cantera.html">Zona cantera</a></li>
+                    <li><a href="./zona_urbana.html">Zona urbana</a></li>
+                    <li><a href="../enlaces.html">Enlaces</a></li>
+                </ul>
+            </div>
+            <div class="Lfooter">
+                <div>
+                    <a href="../index.html" title="Machu Picchu" class="titleletter"><img src="../../img/logoM.svg"
+                            alt="Logo" class="logo"></a>
+                    <p>Claudia Balarezo - UOC</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

@@ -7,13 +7,17 @@
     <meta name="author" content="Claudia Balarezo Quiroz">
     <title>MP- Zona Urbana</title>
     <link rel="stylesheet" href="../styles.css">
+
+    <link rel="icon" type="image/png" href="../../img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../../img/favicon-32x32.png" sizes="32x32">
 </head>
 
 <body>
     <header>
         <div>
-            <div class="container">
-                <a href="../index.html" title="Machu Picchu" class="logo">Machu Picchu</a>
+            <div class="container title">
+                <a href="../index.html" title="Machu Picchu" class="titleletter"><img src="../../img/logo.svg"
+                        alt="Logo" class="logo"><span>Ciudad de Incas</span></a>
                 <nav class="nav">
                     <ul>
                         <li><a href="../presentacion.html" title="Presentación">Tesoro Inca</a></li>
@@ -32,9 +36,14 @@
                 <li>Zona urbana</li>
             </ul>
             <article>
-                <h1>
-                    Zona urbana
-                </h1>
+                <div class="super">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="../../img/Categorias/Urbano_480.jpeg">
+                        <img src="../../img/Categorias/Urbano_680.jpeg" alt="Categoria">
+                    </picture>
+                    <h1 class="bzona">Zona Urbano</h1>
+                </div>
+
                 <p><time datetime="2022-11-25">25-11-2022</time></p>
                 <p>
                     Un muro de unos 400 metros de largo divide la ciudad del área agrícola. Paralelo al muro corre un
@@ -46,9 +55,6 @@
                     eje físico de esa división es una plaza alargada, construida sobre terrazas en diferentes niveles de
                     acuerdo con el declive de la montaña.
                 </p>
-                <div class="cardIMG"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_50.JPG/1280px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_50.JPG"
-                        alt="Zona urbana"></div>
                 <p>
                     El segundo eje en importancia de la ciudad forma cruz con el anterior, atravesando prácticamente
                     todo el ancho de las ruinas de este a oeste. Consiste en dos elementos: una ancha y larga escalinata
@@ -133,11 +139,12 @@
                         </dl>
                     </div>
                 </article>
-                <article id="PGA">
+                <article id="SHU">
                     <h2>Sector Hurin</h2>
                     <div class="col">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_45.JPG/1280px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_45.JPG"
-                            alt="Sector Hurin">
+
+                        <img srcset="../../img/Edificacion_320.jpeg, ../../img/Edificacion_480.jpeg 1.5x"
+                            src="../../img/Edificacion_480.jpeg" alt="Sector residencial">
                         <div>
                             <p> El Sector Residencial incluye diversos grupos, como el Sector del Cóndor, Los Espejos de
                                 Agua (Los Morteros), Las Tres Portadas y el Grupo Alto y la Roca Sagrada.
@@ -202,8 +209,25 @@
         </div>
     </main>
     <footer>
-        <p>Claudia Balarezo - UOC</p>
-        <p>25-11-22</p>
+        <div class="container col">
+            <div class="Rfooter">
+                <ul class="List">
+                    <li><a href="../presentacion.html">Tesoro Inca</a></li>
+                    <li><a href="../categoria.html">Zonas</a></li>
+                    <li><a href="./zona_agricola.html">Zona agricola</a></li>
+                    <li><a href="./zona_cantera.html">Zona cantera</a></li>
+                    <li><a href="./zona_urbana.html">Zona urbana</a></li>
+                    <li><a href="../enlaces.html">Enlaces</a></li>
+                </ul>
+            </div>
+            <div class="Lfooter">
+                <div>
+                    <a href="../index.html" title="Machu Picchu" class="titleletter"><img src="../../img/logoM.svg"
+                            alt="Logo" class="logo"></a>
+                    <p>Claudia Balarezo - UOC</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
