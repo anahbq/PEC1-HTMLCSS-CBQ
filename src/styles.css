@@ -9,15 +9,12 @@
     --bg-color: #f5f4f4;
     --color-gray: rgba(0, 0, 0, 0.5);
     --bg-footer: rgba(0, 0, 0, 0.819);
-    --bg-header: #f4f2ef; 
+    --bg-header: #f4f2ef;
     --logo: #937527;
     --font: 'Catamaran', sans-serif;
     --font-head: 'Patrick Hand', cursive;
     --font-title: 'Libre Baskerville', serif;
-
 }
-
-
 
 * {
     margin: 0;
@@ -289,7 +286,7 @@ footer p {
 .List a:hover {
     color: rgb(174, 89, 166);
     text-decoration: underline;
-    
+
 }
 
 .super {
@@ -394,7 +391,8 @@ footer p {
     width: 35%;
 }
 
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -492,6 +490,7 @@ imgchange {
         line-height: 0.6;
         position: absolute;
     }
+
     footer .logo {
         max-width: 35px;
     }
